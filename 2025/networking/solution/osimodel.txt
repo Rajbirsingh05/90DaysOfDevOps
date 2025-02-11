@@ -1,0 +1,20 @@
+Protocol	 Ports	Usage                                                                        
+SSH	22	SSH protocol is used establish secure remote access to the server
+FTP 	21	FTP protocol enables to transfer file from host to host over the network
+HTTP	80	HTTP transfer data over the web 
+HTTPS	443	Secure data transfer over the web, it HTTP doesn’t have encryption however HTTPS encrypt data while transferring 
+DNS	53	DNS resolve the hostname into IP address. When someone tried to access any site for an example google.com, to access the google.com browser needs IP address. DNS check the IP address of the given URL or hostname in local host file, if it is found IP locally then it will show the response otherwise it follows path to find the IP 
+Root server >> Top level domain >> Name Server >> SOA and get the IP
+SMTP	25	It is used to send the email
+Nginx 	80/443	Nginx is used as proxy server as well as load balancing purpose, its default port is 80/443 
+Apache HTTP	80/443	This is a web server used to host the application and its default port is 80/443
+MYSQL Database	3306	MYSQL is a RDBMS server, it is used to store the transaction data and it uses port 3306 for the communication 
+Postgres 	5432	Postgres is also RDBMS database There are used for OLTP 
+Jenkins	8080	Jenkins is a CICD tool, it is used to create the workflow to automate the CICD pipeline
+SonarQube 	9000	SonarQube, a code quality and security analysis tool, typically exposes its web interface on port 9000
+Grafana	3000	It is a Visualization and monitoring tool and it UI runs on 3000 port
+POP3	10	It is used to retrieve email from email Server by email client
+IAMP	143	It works same like POP3 however email client can see their email on server itself without downloading 
+Telnet	23	It is used to check the service connection from one host to another host
+
+
